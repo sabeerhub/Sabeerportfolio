@@ -23,7 +23,6 @@ A stunning, responsive portfolio website showcasing my skills, projects, and jou
 ## 📁 Project Structure
 
 ```
-
 portfolio/
 ├──index.html          # Main portfolio page
 ├──project.html        # Projects showcase page
@@ -32,7 +31,6 @@ portfolio/
 ├──ss3.jpg            # Profile image
 ├──b.mp4              # Portfolio video
 └──README.md          # Project documentation
-
 ```
 
 ## 🚀 Live Demo
