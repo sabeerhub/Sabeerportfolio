@@ -1,4 +1,3 @@
-```
 # 🚀 Sabeer Dev - Modern Portfolio
 
 A stunning, responsive portfolio website showcasing my skills, projects, and journey as a developer. Built with modern web technologies and featuring smooth animations.
@@ -90,4 +89,3 @@ This project is licensed under the MIT License.
 ⭐ **If you like this project, give it a star!**
 
 **Built with ❤️ by Mustapha Abdulsalam**
-```
