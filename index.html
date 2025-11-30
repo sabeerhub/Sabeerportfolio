@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustapha Abdulsalam - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cta-button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+  
+    background: linear-gradient(45deg, var(--primary), var(--primary-dark));
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Sabeer<span>Dev</span></div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+         <ul class="nav-menu" id="nav-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+        </div>
+    </nav>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight" id="name"></span></h1>
+                <p class="hero-subtitle">A passionate Developer crafting digital experiences</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVASCRIPT</span>
+                    <span>REACT</span>
+                    <span>GRAPHIC DESIGN</span>
+                    <span>UI/UX</span>
+                </div>
+        <a href="project.html" class="cta-button">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="ss3.jpg" alt="Mustapha Abdulsalam">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="socials-bar">
+        <a href="https://github.com/sabeerhub" class="social-link">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://Instagram.com/_m.sabeer_" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/SabeerVerse" class="social-link">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mustapha-abdulsalam" class="social-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/@_msabeer_" class="social-link">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-section">
+                        <h3 class="about-subtitle">My Journey</h3>
+                        <p>I discovered programming about three years ago. At first, I didn't take it seriously; I felt overwhelmed by the amount of information. But when I did take it seriously, I developed interest that drove me to go deeper and deeper. I started with HTML and CSS, practicing both to near perfection.</p>
+                    </div>
+                    <div class="about-section">
+                        <h3 class="about-subtitle">Present Focus</h3>
+                        <p>Currently, I am learning JavaScript programming language while sharpening my HTML and CSS skills. I'm also getting familiar with tools and resources that'll aid my programming journey.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern structure</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and animations</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3 >JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building modern applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>mustaphaabdulsalam1666@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+2349070748980</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sabeer-Verse | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
